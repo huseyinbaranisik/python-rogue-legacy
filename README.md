@@ -1,62 +1,50 @@
 # <p align="center">⚔️ DUNGEON ASCENT (ZİNDAN MACERASI)</p>
-## <p align="center">🛡️ Strategic Text-Based RPG & Dungeon Crawler</p>
+## <p align="center">🛡️ Stratejik Metin Tabanlı RPG ve Zindan Keşfi</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Logic-Procedural-red?style=for-the-badge&logo=probot" />
-  <img src="https://img.shields.io/badge/Data-JSON-lightgrey?style=for-the-badge&logo=json" />
-  <img src="https://img.shields.io/badge/Evolution-Unity_Planned-blue?style=for-the-badge&logo=unity" />
+  <img src="https://img.shields.io/badge/Mantık-Prosedürel-red?style=for-the-badge&logo=probot" />
+  <img src="https://img.shields.io/badge/Veri-JSON-lightgrey?style=for-the-badge&logo=json" />
+  <img src="https://img.shields.io/badge/Gelişim-Unity_Planlanan-blue?style=for-the-badge&logo=unity" />
 </p>
 
 ---
 
-# 🚀 PROJECT OVERVIEW (EN)
+### 📝 PROJE HAKKINDA
+**Dungeon Ascent**, strateji ve şans unsurlarını harmanlayan, derinlikli mekaniklere sahip terminal tabanlı bir macera oyunudur. 100 katlık bir serüvende, karakter gelişimi ve taktiksel savaş dinamikleri üzerine inşa edilmiştir. 
 
-**Dungeon Ascent** is a deep, terminal-based adventure where strategy meets luck. Experience a world of handcrafted challenges across 100 floors, featuring complex combat mechanics and a rich itemization system.
-
-### 🌟 Key Features
-* **🎭 Class System:** 4 distinct archetypes: **Warrior, Mage, Rogue, and Tank.**
-* **⚔️ Tactical Combat:** Manage MP, Adrenaline, and class-specific skills to survive.
-* **💎 Loot & Rarity:** Massive gear system with **10 different rarity tiers.**
-* **💾 Persistent Progress:** Integrated **JSON** Save/Load system to keep your hero's journey alive.
-* **🎲 Procedural Elements:** Random encounters, merchants, and mysterious monuments.
-
----
-
-# 🚀 PROJE DETAYLARI (TR)
-
-**Zindan Macerası**, stratejinin şansla buluştuğu, derinlikli mekaniklere sahip terminal tabanlı bir RPG oyunudur. 100 el yapımı kat boyunca süren bu serüvende, karakter gelişimi ve zorlu savaş dinamikleri ön plandadır.
+Geleneksel RPG öğelerini modern programlama mantığıyla birleştiren bu çalışma, özellikle veri yönetimi ve oyun döngüsü tasarımı odaklı geliştirilmiştir.
 
 ### 🌟 Temel Özellikler
-* **🎭 Sınıf Sistemi:** 4 ana sınıf: **Savaşçı, Büyücü, Haydut ve Tank.**
-* **⚔️ Taktiksel Savaş:** Hayatta kalmak için MP, Adrenalin ve sınıfa özel yetenek yönetimi.
-* **💎 Ganimet ve Nadirlik:** **10 farklı nadirlik seviyesine** sahip geniş eşya sistemi.
-* **💾 Kalıcı İlerleme:** Kahramanınızın macerasını kaydeden **JSON** tabanlı Save/Load sistemi.
-* **🎲 Prosedürel Unsurlar:** Rastgele karşılaşmalar, tüccarlar ve gizemli anıtlar.
+* **🎭 Sınıf Sistemi:** Savaşçı, Büyücü, Haydut ve Tank olmak üzere 4 özgün karakter sınıfı.
+* **⚔️ Taktiksel Savaş:** Hayatta kalmak için MP, Adrenalin ve sınıfa özel yeteneklerin yönetimi.
+* **💎 Ganimet Sistemi:** 10 farklı nadirlik seviyesine sahip, karakter istatistiklerini etkileyen geniş eşya kütüphanesi.
+* **💾 Kayıt Sistemi:** Kahramanın ilerlemesini koruyan **JSON** tabanlı dinamik Save/Load altyapısı.
+* **🎲 Rastgele Karşılaşmalar:** Tüccarlar, gizemli anıtlar ve rastgele tetiklenen olaylar ile her oyunda farklı bir deneyim.
 
 ---
 
-# 🔮 THE EVOLUTION (FUTURE ROADMAP)
+### 🔮 GELECEK PLANLARI (YOL HARİTASI)
 
-| Goal / Hedef | Status / Durum | Description / Açıklama |
+| Hedef | Durum | Açıklama |
 | :--- | :---: | :--- |
-| **Infinite Descent** | ⏳ | Moving beyond 100 floors to a procedural infinite system. |
-| **Unity Shift** | 🛠️ | Transforming into a **2D Top-Down Crawler** (Pokemon-style). |
-| **Visual Combat** | 🎨 | Replacing text logs with animated sprites and effects. |
+| **Sonsuz Zindan** | ⏳ | 100 kat sınırının ötesine geçen prosedürel bir sistem. |
+| **Unity Geçişi** | 🛠️ | Oyunun 2D (Top-Down) görsel bir yapıya taşınması. |
+| **Görsel Savaş** | 🎨 | Metin tabanlı günlüklerin yerine animasyonlu efektlerin eklenmesi. |
 
 ---
 
-# 🛠️ TECH STACK & ARCHITECTURE
+### 🛠️ TEKNİK YAPI VE MİMARİ
 
-* **Language:** Python 3.x
-* **Data Management:** JSON for save files and item databases.
-* **Logic:** Procedural generation using the `random` module.
-* **Interface:** Terminal-based interactive CLI.
+* **Dil:** Python 3.x
+* **Veri Yönetimi:** Kayıt dosyaları ve eşya veritabanları için JSON formatı.
+* **Mantık:** `random` modülü kullanılarak oluşturulan prosedürel içerik üretimi.
+* **Arayüz:** Terminal tabanlı (CLI) etkileşimli kullanıcı deneyimi.
 
 ---
 
-# 💻 INSTALLATION & START
+### 💻 KURULUM VE BAŞLATMA
 
-1. **Clone the project:**
+1. **Projeyi indirin veya klonlayın:**
    ```bash
-   git clone [https://github.com/username/Dungeon-Ascent.git](https://github.com/username/Dungeon-Ascent.git)
+   git clone [https://github.com/kullaniciadi/Dungeon-Ascent.git](https://github.com/kullaniciadi/Dungeon-Ascent.git)
