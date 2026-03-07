@@ -73,7 +73,8 @@ base_monsters = {
 
 # Karakterler ve Diğer Sabit Sprite'lar (Varyasyonları olmayanlar)
 base_characters = {
-    'Savasci': 'ch_knight'
+    'Savasci': 'ch_knight',
+    'Buyucu': 'ch_wizard'
 }
 
 all_sprites = {}
