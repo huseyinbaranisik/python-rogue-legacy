@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.png" alt="Dungeon Ascent (Zindan Macerası): a turn-based RPG in the terminal. A Windows Terminal window shows a pixel-art battle drawn with text characters: a knight against a zombie in front of a mossy stone wall, with HP, MP and energy bars below. A card shows five of the game's 16 by 16 sprites." width="100%">
+  <img src="assets/cover.png" alt="Dungeon Ascent (Zindan Macerası): a turn-based RPG in the terminal. A Windows Terminal window shows a pixel-art battle drawn with text characters: a knight against a zombie in front of a mossy stone wall, with HP, MP and energy bars below. A card shows five of the game's 16 by 16 sprites." width="100%">
 </p>
 
 <p align="center">

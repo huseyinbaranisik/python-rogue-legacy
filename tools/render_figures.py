@@ -1,4 +1,4 @@
-"""Renders the README figures in assets/: hero.png, demo.gif, sprites.png.
+"""Renders the README figures in assets/: cover.png (hero), demo.gif, sprites.png.
 
 usage:
   python tools/record_terminal.py frames.pkl --inputs "Ayla|1|1|2|2|2|2|2"   # real game, seed 7
@@ -217,7 +217,7 @@ def sprites_fig():
 if __name__ == "__main__":
     rec = pickle.load(open(sys.argv[1], "rb"))
     first_battle = next(f for f in rec["frames"] if any("Hamlen" in "".join(c[0] for c in r) for r in f["rows"]))
-    hero(first_battle).save(os.path.join(OUT, "hero.png"), optimize=True)
+    hero(first_battle).save(os.path.join(OUT, "cover.png"), optimize=True)
     demo(rec)
     sprites_fig().save(os.path.join(OUT, "sprites.png"), optimize=True)
     print("figures ->", OUT)
