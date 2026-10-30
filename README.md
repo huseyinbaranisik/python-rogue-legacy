@@ -31,13 +31,13 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clapper%20Board.png" width="32" align="center"> Demo
 
 <div align="center">
-  <img src="görseller/ch_knight.png" width="70" alt="ch_knight">
-  <img src="görseller/ch_wizard.png" width="70" alt="ch_wizard">
-  <img src="görseller/basic_goblin.png" width="70" alt="basic_goblin">
-  <img src="görseller/basic_skeleton.png" width="70" alt="basic_skeleton">
-  <img src="görseller/basic_golem.png" width="70" alt="basic_golem">
-  <img src="görseller/champion_fire_slime.png" width="70" alt="champion_fire_slime">
-  <img src="görseller/champion_wild_wolf.png" width="70" alt="champion_wild_wolf"><br><sub>Some of the game's character and monster sprites</sub>
+  <img src="görseller/ch_knight.png" width="84" alt="ch_knight">
+  <img src="görseller/ch_wizard.png" width="84" alt="ch_wizard">
+  <img src="görseller/basic_goblin.png" width="84" alt="basic_goblin">
+  <img src="görseller/basic_skeleton.png" width="84" alt="basic_skeleton">
+  <img src="görseller/basic_golem.png" width="84" alt="basic_golem">
+  <img src="görseller/champion_fire_slime.png" width="84" alt="champion_fire_slime">
+  <img src="görseller/champion_wild_wolf.png" width="84" alt="champion_wild_wolf"><br><sub>Some of the game's character and monster sprites</sub>
 </div>
 
 ---
