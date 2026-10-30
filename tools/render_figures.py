@@ -138,7 +138,7 @@ def hero(battle):
     d = ImageDraw.Draw(im)
     d.rectangle([cx0, cy0, cx1, cy1], fill=STONE, outline=BRICK, width=3)
     d.text((cx0 + 22, cy0 + 16), "16 x 16 SPRITES", font=PIXEL(16), fill=TORCH)
-    for i, n in enumerate(["ch_knight.png", "ch_wizard.png", "basic_goblin.png", "basic_skeleton.png", "champion_fire_slime.png"]):
+    for i, n in enumerate(["ch_knight.png", "ch_wizard.png", "basic_goblin.png", "basic_skeleton.png", "basic_normal_slime.png"]):
         im.alpha_composite(sprite(n, 5), (cx0 + 20 + i * 92, cy0 + 56))
     return im.convert("RGB")
 
